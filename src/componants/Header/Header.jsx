@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="bg-black">
       <section className=" max-w-screen-xl mx-auto">
-        <div className="flex items-center text-gray-300 justify-between paddings p-6 w-full text-xl bg-black h-container">
+        <div className="flex ps-10 items-center text-gray-300 justify-between paddings p-6 w-full text-xl bg-black h-container">
           <img src="./logo.png" alt="logo" width={100} />
           <div className="flex items-center gap-6 px-4 ">
             <a href="">Residencie</a>
