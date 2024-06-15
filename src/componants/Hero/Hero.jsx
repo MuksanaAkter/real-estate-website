@@ -27,7 +27,7 @@ export const Hero = () => {
             <div className="bg-white mb-8 flex items-center justify-between w-1/2 py-2 pr-4 ps-3 rounded-md ">
               <HiLocationMarker className="text-blue-500 "></HiLocationMarker>
               <input className="border-none text-black" type="text" />
-              <button className="rounded-md py-2  px-4 text-center text-white bg-gradient-to-r from-blue-600 to-blue-900">
+              <button className="rounded-md py-2 px-3 text-center text-white bg-gradient-to-r from-blue-600 to-blue-900">
                 Search
               </button>
             </div>
