@@ -3,6 +3,7 @@ import Header from '../componants/Header/Header'
 import { Hero } from '../componants/Hero/Hero'
 import { Company } from '../componants/Company/Company'
 import { Residencies } from '../componants/Residencies/Residencies'
+import { FaqPart } from '../componants/FAQ/FaqPart'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
      <Hero></Hero>
      <Company></Company>
      <Residencies></Residencies>
+     <FaqPart></FaqPart>
    </div>
   )
 }
