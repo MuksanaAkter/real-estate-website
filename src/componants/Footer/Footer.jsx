@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <div className="bg-gray-100">
       <div className="footer"> 
-        <div class="container row">
-          <div class="footer-col">
+        <div className="container row">
+          <div className="footer-col">
             <h4>company</h4>
             <ul>
               <li>
@@ -23,7 +23,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>get help</h4>
             <ul>
               <li>
@@ -43,7 +43,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>online shop</h4>
             <ul>
               <li>
@@ -60,13 +60,13 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="footer-col">
+          <div className="footer-col">
             <h4>follow us</h4>
-            <div class="social-links">
-					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-					<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-					<a href="#"><i class="fa-brands fa-instagram"></i></a>
-					<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <div className="social-links">
+					<a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i className="fa-brands fa-x-twitter"></i></a>
+					<a href="#"><i className="fa-brands fa-instagram"></i></a>
+					<a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
 				</div>
           </div>
         </div>
