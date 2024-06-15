@@ -8,7 +8,7 @@ import { FaPhone } from "react-icons/fa6";
 export const Contact = () => {
   return (
     <div className="bg-gray-100">
-      <div className="max-w-screen-xl mx-auto flex gap-4 justify-between pt-5 items-center">
+      <div className="max-w-screen-xl pb-10 mx-auto flex gap-4 justify-between pt-5 items-center">
         <div className="w-[45rem]">
           <div className="flex flex-col px-7 pb-5 pt-3">
             <span className="text-yellow-500 font-semibold text-3xl pb-2 ">
