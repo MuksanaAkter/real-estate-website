@@ -5,6 +5,7 @@ import { Company } from '../componants/Company/Company'
 import { Residencies } from '../componants/Residencies/Residencies'
 import { FaqPart } from '../componants/FAQ/FaqPart'
 import { Contact } from '../componants/Contact/Contact'
+import { Footer } from '../componants/Footer/Footer'
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
      <Residencies></Residencies>
      <FaqPart></FaqPart>
      <Contact></Contact>
+     <Footer></Footer>
    </div>
   )
 }
