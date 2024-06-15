@@ -3,22 +3,17 @@ import "./FaqPart.css";
 
 export const FaqPart = () => {
   useEffect(() => {
-    // select all accordion items
     const accItems = document.querySelectorAll(".accordion__item");
 
-    // add a click event for all items
     accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
 
     function toggleAcc() {
-      // remove active class from all items exept the current item (this)
-      accItems.forEach((item) =>
-        item != this ? item.classList.remove("accordion__item--active") : null
-      );
-
-      // toggle active class on current item
-      if (this.classList != "accordion__item--active") {
-        this.classList.toggle("accordion__item--active");
-      }
+      accItems.forEach((item) => {
+        if (item !== this) {
+          item.classList.remove("accordion__item--active");
+        }
+      });
+      this.classList.toggle("accordion__item--active");
     }
   }, []);
 
@@ -29,7 +24,7 @@ export const FaqPart = () => {
           <img src="./value.png" alt="" />
         </div>
         <div className="pt-10">
-          <div class="accordion">
+          <div className="accordion">
             <div className="flex flex-col px-7 pb-5 pt-3">
               <span className="text-yellow-500 font-semibold text-3xl pb-2 ">
                 Our Values
@@ -43,18 +38,18 @@ export const FaqPart = () => {
                 possimus hic maiores impedit.
               </span>
             </div>
-            <div class="accordion__item">
-              <button class="accordion__btn">
-                <span class="accordion__caption">
-                  <i class="far fa-lightbulb"></i>How do I figure out what to
-                  learn?
+            <div className="accordion__item">
+              <button className="accordion__btn">
+                <span className="accordion__caption">
+                  <i className="far fa-lightbulb"></i>How do I figure out what
+                  to learn?
                 </span>
-                <span class="accordion__icon">
-                  <i class="fa fa-plus"></i>
+                <span className="accordion__icon">
+                  <i className="fa fa-plus"></i>
                 </span>
               </button>
 
-              <div class="accordion__content">
+              <div className="accordion__content">
                 <p>
                   The most important thing is that you want to learn something
                   that interests you, because once you start learning, you'll be
@@ -68,18 +63,18 @@ export const FaqPart = () => {
               </div>
             </div>
 
-            <div class="accordion__item">
-              <button class="accordion__btn">
-                <span class="accordion__caption">
-                  <i class="far fa-lightbulb"></i>Which programming language is
-                  the best to learn?
+            <div className="accordion__item">
+              <button className="accordion__btn">
+                <span className="accordion__caption">
+                  <i className="far fa-lightbulb"></i>Which programming language
+                  is the best to learn?
                 </span>
-                <span class="accordion__icon">
-                  <i class="fa fa-plus"></i>
+                <span className="accordion__icon">
+                  <i className="fa fa-plus"></i>
                 </span>
               </button>
 
-              <div class="accordion__content">
+              <div className="accordion__content">
                 <p>
                   I usually tell most people to start by learning HTML and CSS,
                   then move into learning JavaScript. The reason is that
@@ -90,18 +85,18 @@ export const FaqPart = () => {
               </div>
             </div>
 
-            <div class="accordion__item">
-              <button class="accordion__btn">
-                <span class="accordion__caption">
-                  <i class="far fa-lightbulb"></i>Should I learn Python 2 or
+            <div className="accordion__item">
+              <button className="accordion__btn">
+                <span className="accordion__caption">
+                  <i className="far fa-lightbulb"></i>Should I learn Python 2 or
                   Python 3?
                 </span>
-                <span class="accordion__icon">
-                  <i class="fa fa-plus"></i>
+                <span className="accordion__icon">
+                  <i className="fa fa-plus"></i>
                 </span>
               </button>
 
-              <div class="accordion__content">
+              <div className="accordion__content">
                 <p>
                   Now, in 2020, it’s a no-brainer: Python 3 is definitely the
                   way to go. There are still some situations where picking up
@@ -113,18 +108,18 @@ export const FaqPart = () => {
               </div>
             </div>
 
-            <div class="accordion__item">
-              <button class="accordion__btn">
-                <span class="accordion__caption">
-                  <i class="far fa-lightbulb"></i>Should I learn skills in
+            <div className="accordion__item">
+              <button className="accordion__btn">
+                <span className="accordion__caption">
+                  <i className="far fa-lightbulb"></i>Should I learn skills in
                   several areas?
                 </span>
-                <span class="accordion__icon">
-                  <i class="fa fa-plus"></i>
+                <span className="accordion__icon">
+                  <i className="fa fa-plus"></i>
                 </span>
               </button>
 
-              <div class="accordion__content">
+              <div className="accordion__content">
                 <p>
                   Personally, I'd say choose a path and stick to it! Learning
                   too many things at once will slow you down. Here are a few
