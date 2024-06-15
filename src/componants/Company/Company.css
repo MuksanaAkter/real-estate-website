@@ -1,0 +1,14 @@
+/* Company.css */
+@keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .hover\\:animate-scale:hover {
+    animation: scale 0.3s forwards;
+  }
+  
