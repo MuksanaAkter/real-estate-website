@@ -6,11 +6,12 @@ import { Residencies } from '../componants/Residencies/Residencies'
 import { FaqPart } from '../componants/FAQ/FaqPart'
 import { Contact } from '../componants/Contact/Contact'
 import { Footer } from '../componants/Footer/Footer'
+import Nav from '../componants/Nav/Nav'
 
 export const Home = () => {
   return (
    <div>
-     <Header></Header>
+    <Nav></Nav>
      <Hero></Hero>
      <Company></Company>
      <Residencies></Residencies>

@@ -5,13 +5,13 @@ import CountUp from "react-countup";
 
 export const Hero = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white pt-12">
       <section className=" max-w-screen-xl mx-auto px-5 py-4">
-        <div className="flex justify-between items-center pe-10">
+        <div className="flex flex-col md:flex-row justify-between items-center pe-10">
           <div className="w-full flex flex-col ps-10 ">
             <div className="relative">
-              <div className=" absolute left-52 -top-5 w-16 h-16 bg-orange-300 rounded-full"></div>
-              <h1 className="text-6xl relative z-10 pb-10 font-bold">
+              <div className=" absolute left-48 md:left-52 -top-1 md:-top-5 w-16 h-16 bg-orange-300 rounded-full"></div>
+              <h1 className="md:text-6xl text-4xl relative z-10 pb-10 font-bold">
                 Discover <br /> More Suitable <br />
                 proverty
               </h1>
@@ -54,9 +54,10 @@ export const Hero = () => {
                 <span className="text-gray-300 text-xl">Award Winings</span>
               </div>
             </div>
+
           </div>
           <div>
-            <div className="i-containar">
+            <div className="i-containar flex align-middle justify-center w-[20rem] md:w-[30rem] md:h-[35rem] h-[25rem]">
               <img src="./hero-image.png" alt="" />
             </div>
           </div>

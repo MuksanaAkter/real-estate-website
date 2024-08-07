@@ -8,22 +8,22 @@ import { FaPhone } from "react-icons/fa6";
 export const Contact = () => {
   return (
     <div className="bg-gray-100">
-      <div className="max-w-screen-xl pb-10 mx-auto flex gap-4 justify-between pt-5 items-center">
+      <div className="max-w-screen-xl pb-10 mx-auto flex flex-col md:flex-row gap-4 justify-between pt-5 items-center">
         <div className="w-[45rem]">
           <div className="flex flex-col px-7 pb-5 pt-3">
-            <span className="text-yellow-500 font-semibold text-3xl pb-2 ">
+            <span className="text-yellow-500 font-semibold md:text-3xl text-xl pb-2 ">
               Our Contact Us
             </span>
-            <span className="text-blue-950 font-bold text-4xl ">
+            <span className="text-blue-950 font-bold md:text-4xl ">
               Easy To Contact Us
             </span>
-            <span className="py-3">
+            <span className="py-3 w-20 md:w-full">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
               nesciunt aliquid itaque iste quia sed ex sequi quidem, vel fugit
               possimus hic maiores impedit.
             </span>
           </div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
             <div className="p-6 w-[20rem] mx-auto bg-white rounded-xl shadow-md space-y-4">
               <div className="flex items-center space-x-4">
                 <div className="p-3 bg-blue-100 rounded-full">

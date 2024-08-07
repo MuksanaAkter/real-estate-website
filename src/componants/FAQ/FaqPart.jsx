@@ -19,12 +19,12 @@ export const FaqPart = () => {
 
   return (
     <div className="bg-gray-100">
-      <div className="max-w-screen-xl mx-auto flex gap-4 justify-between pt-5 items-center">
-        <div className="i-containar">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md: gap-4 justify-between pt-5 items-center">
+        <div className="i-containar w-[20rem] md:w-[30rem] md:h-[35rem] h-[25rem]">
           <img src="./value.png" alt="" />
         </div>
         <div className="pt-10">
-          <div className="accordion">
+          <div className="accordion md:w-[42rem] w-[20rem]">
             <div className="flex flex-col px-7 pb-5 pt-3">
               <span className="text-yellow-500 font-semibold text-3xl pb-2 ">
                 Our Values
